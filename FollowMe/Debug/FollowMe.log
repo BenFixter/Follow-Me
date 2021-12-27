@@ -1,0 +1,52 @@
+﻿  EasyGraphics.cpp
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(363,45): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(357): message : while compiling class template member function 'const T *EasyGraphics::ToolCache<T,const wchar_t *>::getTool(S)'
+          with
+          [
+              T=EasyGraphics::BitmapItem,
+              S=const wchar_t *
+          ]
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.cpp(396): message : see reference to function template instantiation 'const T *EasyGraphics::ToolCache<T,const wchar_t *>::getTool(S)' being compiled
+          with
+          [
+              T=EasyGraphics::BitmapItem,
+              S=const wchar_t *
+          ]
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(211): message : see reference to class template instantiation 'EasyGraphics::ToolCache<EasyGraphics::BitmapItem,const wchar_t *>' being compiled
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(371,43): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  FollowMe.cpp
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\FollowMe.cpp(324,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(363,45): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(357): message : while compiling class template member function 'const T *EasyGraphics::ToolCache<T,const LOGPEN &>::getTool(S)'
+          with
+          [
+              T=EasyGraphics::PenItem,
+              S=const LOGPEN &
+          ]
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(247): message : see reference to function template instantiation 'const T *EasyGraphics::ToolCache<T,const LOGPEN &>::getTool(S)' being compiled
+          with
+          [
+              T=EasyGraphics::PenItem,
+              S=const LOGPEN &
+          ]
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(212): message : see reference to class template instantiation 'EasyGraphics::ToolCache<EasyGraphics::PenItem,const LOGPEN &>' being compiled
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(371,43): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  main.cpp
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(363,45): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(357): message : while compiling class template member function 'const T *EasyGraphics::ToolCache<T,const LOGPEN &>::getTool(S)'
+          with
+          [
+              T=EasyGraphics::PenItem,
+              S=const LOGPEN &
+          ]
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(247): message : see reference to function template instantiation 'const T *EasyGraphics::ToolCache<T,const LOGPEN &>::getTool(S)' being compiled
+          with
+          [
+              T=EasyGraphics::PenItem,
+              S=const LOGPEN &
+          ]
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(212): message : see reference to class template instantiation 'EasyGraphics::ToolCache<EasyGraphics::PenItem,const LOGPEN &>' being compiled
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\FollowMe\EasyGraphics.h(371,43): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  Generating Code...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\benfi\Desktop\Projects\FollowMe\FollowMe\Debug\FollowMe.exe : fatal error LNK1120: 1 unresolved externals
